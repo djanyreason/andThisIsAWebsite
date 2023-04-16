@@ -21,12 +21,7 @@ body > div {
     background-color: #1F2937;
 }
 
-.header { /* For section differentiation while working - not permanent, to be deleted */
-    color: #E5E7EB;
-    font-size: 18px;
-}
-
-.header > .sectionWrapper {
+.header .sectionWrapper {
     justify-content: space-between;
     align-items: center;
 }
@@ -38,6 +33,18 @@ body > div {
 .header li {
     display: inline;
     margin: 10px;
+}
+
+.header .Logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 /* Hero Styles */
