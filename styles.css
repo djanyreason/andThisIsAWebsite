@@ -1,10 +1,16 @@
+/* Common Styles */
+
 body {
     display: flex;
     flex-direction: column;
     font-family: roboto, sans-serif;
 }
 
-/* Header Styles*/
+body > div {
+    padding: 0px 24px;
+}
+
+/* Header Styles */
 .header {
     background-color: #1F2937;
     color: #E5E7EB;
@@ -12,7 +18,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid black;
 }
 
 .header ul {
@@ -24,7 +29,7 @@ body {
     margin: 10px;
 }
 
-/* Hero Styles*/
+/* Hero Styles */
 .hero {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -32,12 +37,12 @@ body {
     font-weight: extra-bold;
 }
 
-/* Info Styles*/
+/* Info Styles */
 .info {
     background-color: #F9FAF8;
 }
 
-/* Testimonial Styles*/
+/* Testimonial Styles */
 .testimonial {
     background-color: #E5E7EB;
     color: #1F2937;
@@ -45,12 +50,12 @@ body {
     font-style: italic;
 }
 
-/* Action Call Styles*/
+/* Action Call Styles */
 .actionCall {
     background-color: #F9FAF8;
 }
 
-/* Footer Styles*/
+/* Footer Styles */
 footer {
     background-color: #1F2937;
     color: #E5E7EB;
