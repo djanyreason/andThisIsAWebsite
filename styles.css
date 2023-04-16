@@ -7,7 +7,8 @@ body {
 }
 
 body > div {
-    padding: 0px 24px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 .sectionWrapper {
