@@ -9,6 +9,19 @@ body {
     background-color: #1F2937;
     color: #E5E7EB;
     font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.header ul {
+    list-style-type: none;
+}
+
+.header li {
+    display: inline;
+    margin: 10px;
 }
 
 /* Hero Styles*/
