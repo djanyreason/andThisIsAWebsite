@@ -100,6 +100,9 @@ button {
     background-color: #F9FAF8;
     padding-top: 48px;
     padding-bottom: 144px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
 }
 
 .info .sectionWrapper {
@@ -117,6 +120,8 @@ button {
 .imageCaption {
     max-width: 170px;
     text-align: center;
+    font-size: 18px;
+    font-weight: normal;
 }
 
 /* Testimonial Styles */
