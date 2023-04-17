@@ -17,6 +17,15 @@ body > div {
     margin: auto;
 }
 
+button {
+    padding: 8px 32px;
+    border-radius: 8px;
+    background: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+}
+
 /* Header Styles */
 .header {
     background-color: #1F2937;
