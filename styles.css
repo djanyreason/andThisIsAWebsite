@@ -170,6 +170,8 @@ button {
     background-color: #F9FAF8;
     padding-top: 120px;
     padding-bottom: 120px;
+    color: #F9FAF8;
+    font-size: 18px;
 }
 
 .actionCall .sectionWrapper {
@@ -179,6 +181,11 @@ button {
     border-radius: 8px;
     justify-content: space-between;
     align-items: center;
+}
+
+.actionCall .MainCall {
+    font-weight: bold;
+    font-size: 24px;
 }
 
 /* Footer Styles */
