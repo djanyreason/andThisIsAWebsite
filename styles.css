@@ -139,12 +139,30 @@ button {
 /* Testimonial Styles */
 .testimonial {
     background-color: #E5E7EB;
+    padding-top: 144px;
+    padding-bottom: 120px;
+}
+
+.testimonial .sectionWrapper {
+    flex-direction: column;
+    max-width: 820px;
+    gap: 10px;
+}
+
+.quote {
+    align-self: flex-start;
+}
+
+.quotee {
+    align-self: flex-end;
+    padding: 0px 40px;
 }
 
 .testimonial {  /* For section differentiation while working - not permanent, to be deleted */
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
+    font-weight: lighter;
 }
 
 /* Action Call Styles */
