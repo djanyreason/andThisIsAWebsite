@@ -196,10 +196,14 @@ button {
 
 /* Footer Styles */
 .footer {
-}
-
-.footer {  /* For section differentiation while working - not permanent, to be deleted */
     background-color: #1F2937;
+    padding-top: 36px;
+    padding-bottom: 36px;
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.footer .sectionWrapper {
+    justify-content: center;
+    align-items: center;
 }
