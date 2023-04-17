@@ -188,6 +188,12 @@ button {
     font-size: 24px;
 }
 
+.actionCall button {
+    flex: 0 0 auto;
+    border-color: #F9FAF8;
+    border-style: solid;
+}
+
 /* Footer Styles */
 .footer {
 }
