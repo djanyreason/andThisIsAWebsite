@@ -91,6 +91,7 @@ button {
 }
 
 .hero button {
+    box-sizing: border-box;
     margin-top: 12px;
     border: 0px solid;
 }
@@ -101,7 +102,7 @@ button {
     padding-top: 48px;
     padding-bottom: 144px;
     font-size: 36px;
-    font-weight: 700;
+    font-weight: bolder;
     color: #1F2937;
 }
 
@@ -122,6 +123,15 @@ button {
     text-align: center;
     font-size: 18px;
     font-weight: normal;
+}
+
+.imageCaption img {
+    border: 5px solid #3882F6;
+    border-radius: 16px;
+    object-fit: cover;
+    box-sizing: border-box;
+    max-width: inherit;
+    margin-bottom: 5px;
 }
 
 /* Testimonial Styles */
