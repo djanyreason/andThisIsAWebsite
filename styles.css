@@ -98,6 +98,25 @@ button {
 /* Info Styles */
 .info {
     background-color: #F9FAF8;
+    padding-top: 48px;
+    padding-bottom: 144px;
+}
+
+.info .sectionWrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.imageList {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+.imageCaption {
+    max-width: 170px;
+    text-align: center;
 }
 
 /* Testimonial Styles */
