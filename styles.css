@@ -51,6 +51,23 @@ body > div {
 /* Hero Styles */
 .hero {
     background-color: #1F2937;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.hero .sectionWrapper {
+    justify-content: center;
+    align-items: stretch;
+    gap: 24px;
+}
+
+.hero .contentBox {
+    flex: 1;
+}
+
+.hero img {
+    flex: 1;
+    object-fit: cover;
 }
 
 .hero {  /* For section differentiation while working - not permanent, to be deleted */
