@@ -167,10 +167,18 @@ button {
 
 /* Action Call Styles */
 .actionCall {
+    background-color: #F9FAF8;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
-.actionCall {  /* For section differentiation while working - not permanent, to be deleted */
-    background-color: #F9FAF8;
+.actionCall .sectionWrapper {
+    background-color: #3882F6;
+    padding: 48px 90px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Footer Styles */
