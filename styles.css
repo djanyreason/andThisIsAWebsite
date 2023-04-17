@@ -42,7 +42,7 @@ button {
 
 .header li {
     display: inline;
-    margin: 10px;
+    margin-left: 10px;
 }
 
 .header .Logo {
