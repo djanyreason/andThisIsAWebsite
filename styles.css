@@ -70,10 +70,15 @@ body > div {
     object-fit: cover;
 }
 
-.hero {  /* For section differentiation while working - not permanent, to be deleted */
+.heroMain {  /* For section differentiation while working - not permanent, to be deleted */
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 900;
+}
+
+.heroSecondary {
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 /* Info Styles */
